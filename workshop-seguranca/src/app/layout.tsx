@@ -8,8 +8,8 @@ const GoodTiming = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Workshop Segurança",
-  description: "Você é o nosso convidado!!",
+  title: "WorkShop",
+  description: "Convite para evento",
 };
 
 export default function RootLayout({
