@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Good Timing';
+  src: url('/src/assets/fonts/goodtimingbd.otf') format('opentype'),
+       url('/src/assets/fonts/goodtimingbd.woff2') format('woff2'),
+       url('/src/assets/fonts/goodtimingbd.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Good Timing', sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Good Timing', sans-serif;
+}
+
+p {
+  font-size: 1em;
+}
