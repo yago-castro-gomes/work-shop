@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width='30rem' height='12rem' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 521.43 138.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3, .cls-5 {
+        mix-blend-mode: color-dodge;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-6 {
+        fill: #62d4f3;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #62d4f3;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="45.74" y1="9.66" x2="531.94" y2="183.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#715bee"/>
+      <stop offset="1" stop-color="#6c88f0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="69.29" x2="521.43" y2="69.29" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#7161ee"/>
+      <stop offset=".45" stop-color="#6c85ef"/>
+      <stop offset="1" stop-color="#65baf2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="339.34" y1="12.11" x2="492.65" y2="12.11" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="69.18" y1="70.03" x2="504.64" y2="70.03" xlink:href="#linear-gradient-2"/>
+    <radialGradient id="radial-gradient" cx="-25.34" cy="-491307.98" fx="-25.34" fy="-491307.98" r="366.8" gradientTransform="translate(165.35 -4271.18) rotate(-180) scale(.4 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-1168.95" cy="-506499.83" fx="-1168.95" fy="-506499.83" r="366.86" gradientTransform="translate(195.07 -4271.18) rotate(-180) scale(.2 0)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g class="cls-8">
+    <g id="Camada_2" data-name="Camada 2">
+      <g id="Camada_1-2" data-name="Camada 1">
+        <g id="Followers_Panel" data-name="Followers Panel">
+          <g id="Followers_Panel_Part" data-name="Followers Panel Part">
+            <polygon id="Followers_Panel_Part-2" data-name="Followers Panel Part" class="cls-1" points="352.79 31.12 327.45 5.78 27.92 5.78 2.58 31.12 2.58 132.79 518.85 132.79 518.85 56.16 493.8 31.12 352.79 31.12"/>
+            <g id="Followers_Panel_Part-3" data-name="Followers Panel Part">
+              <path id="Followers_Panel_Part-4" data-name="Followers Panel Part" class="cls-2" d="M521.43,135.37H0V30.05L26.85,3.2h301.67l25.34,25.34h141.01l26.56,26.56v80.27ZM5.16,130.21h511.11V57.23l-23.53-23.53h-141.01l-25.34-25.34H28.99L5.16,32.19v98.02Z"/>
+            </g>
+            <polygon id="Followers_Panel_Part-5" data-name="Followers Panel Part" class="cls-4" points="358.65 21.8 492.65 21.58 468.39 2.43 339.34 2.43 358.65 21.8"/>
+            <g id="Followers_Panel_Part-6" data-name="Followers Panel Part">
+              <polygon id="Followers_Panel_Part-7" data-name="Followers Panel Part" class="cls-6" points="41.14 24.3 56.66 39.82 51.89 44.59 41.14 33.84 30.39 44.59 25.62 39.82 41.14 24.3 41.14 24.3 41.14 24.3"/>
+              <polygon id="Followers_Panel_Part-8" data-name="Followers Panel Part" class="cls-6" points="41.14 42.14 56.66 57.66 51.89 62.44 41.14 51.68 30.39 62.44 25.62 57.66 41.14 42.14 41.14 42.14 41.14 42.14"/>
+              <polygon id="Followers_Panel_Part-9" data-name="Followers Panel Part" class="cls-9" points="41.14 59.77 56.66 75.29 51.89 80.07 41.14 69.31 30.39 80.07 25.62 75.29 41.14 59.77 41.14 59.77 41.14 59.77"/>
+              <polygon id="Followers_Panel_Part-10" data-name="Followers Panel Part" class="cls-6" points="41.14 77.61 56.66 93.14 51.89 97.91 41.14 87.16 30.39 97.91 25.62 93.14 41.14 77.61 41.14 77.61 41.14 77.61"/>
+              <polygon id="Followers_Panel_Part-11" data-name="Followers Panel Part" class="cls-9" points="41.14 94.61 56.66 110.13 51.89 114.9 41.14 104.15 30.39 114.91 25.62 110.13 41.14 94.61 41.14 94.61 41.14 94.61"/>
+            </g>
+            <g id="Followers_Panel_Part-12" data-name="Followers Panel Part">
+              <polygon id="Followers_Panel_Part-13" data-name="Followers Panel Part" class="cls-7" points="504.64 119.12 70.88 119.12 70.88 117.4 502.92 117.4 502.92 60.43 488.2 46.49 343.74 46.1 320.8 22.66 69.18 22.66 69.18 20.94 321.52 20.94 344.46 44.38 488.88 44.77 504.64 59.69 504.64 119.12"/>
+            </g>
+          </g>
+          <path id="Followers_Panel_Part-14" data-name="Followers Panel Part" class="cls-3" d="M27.94,3.2c0-1.77,66.1-3.2,147.64-3.2s147.64,1.43,147.64,3.2-66.1,3.2-147.64,3.2S27.94,4.97,27.94,3.2Z"/>
+          <path id="Followers_Panel_Part-15" data-name="Followers Panel Part" class="cls-5" d="M357.06,135.37c0-1.77,33.04-3.2,73.79-3.2s73.79,1.43,73.79,3.2-33.04,3.2-73.79,3.2-73.79-1.43-73.79-3.2Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

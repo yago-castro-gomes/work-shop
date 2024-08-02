@@ -1,0 +1,66 @@
+body {
+  background-image: url('../../../public/img/bg-tela-2.png');
+  background-size: cover; /* Faz com que a imagem cubra toda a tela */
+  background-position: center; /* Centraliza a imagem na tela */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.custom-select {
+  color: gray;
+}
+
+.binary-container {
+  position: fixed;
+  top: 0;
+  left: 40%;
+  width: 60vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.binary-stream {
+  position: absolute;
+  color: #ffffff;
+  font-family:monospace;
+  white-space: nowrap;
+  pointer-events: none;
+  transform: rotateY(180deg);
+}
+
+.binary-stream span {
+  display: inline-block;
+  animation: fall linear infinite;
+  font-size: 1rem;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.7;
+    transform: translateY(100%);
+  }
+}
+
+
+.image-container img {
+  position: relative;
+  z-index: 0; /* Coloca a imagem em uma camada inferior */
+}
+
+.image-container {
+  position: relative; /* Garante que o BinaryRain se sobreponha corretamente */
+  width: 50%; /* Ajusta a largura para preencher o contêiner pai */
+  max-width: 750px; /* Ajusta o tamanho máximo conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  overflow: hidden; /* Garante que o conteúdo não saia do contêiner */
+}
+

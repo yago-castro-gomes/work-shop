@@ -1,0 +1,14 @@
+body {
+  background-image: url('../../../public/img/bg-tela-2.png');
+  padding: 0 30px;
+  overflow: scroll;
+}
+
+.item {
+  transition: transform 0.2s ease;
+}
+
+.item.expanded {
+  transform: scale(1.1); /* Ajuste o valor conforme necessário */
+}
+
