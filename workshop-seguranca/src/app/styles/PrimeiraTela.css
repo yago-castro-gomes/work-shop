@@ -1,10 +1,14 @@
 body {
-  background-image: url('../../../public/img/bg-tela-1.svg');
+  background-image: url('../../../public/img/bg-tela-2.png');
   background-size: cover; /* Faz com que a imagem cubra toda a tela */
   background-position: center; /* Centraliza a imagem na tela */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   background-attachment: fixed;
   overflow: hidden;
+}
+
+.custom-select {
+  color: gray;
 }
 
 .binary-container {

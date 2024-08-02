@@ -1,58 +1,14 @@
 body {
-    background-image: url('../../../public/img/bg-tela-2.png');
-  }
-  
-  /* Estilo do contêiner principal */
-  .page-logo {
-    position: fixed; 
-    bottom: 0; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  
-  /* Estilo do SVG logo */
-  .logo {
-    max-width: 100%; 
-    height: 100%; 
-  }
-  
-  /* Contêiner centralizado */
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Para centralizar verticalmente */
-    width: 100%;
-    box-sizing: border-box;
-    padding-bottom: 100px; /* Espaço para a logo */
-  }
-  
-  /* Estilo do conteúdo de PageInfo */
-  .page-info {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 800px; /* Ajuste o tamanho máximo conforme necessário */
-    transition: max-height 0.3s ease; /* Transição suave */
-    overflow: hidden; /* Esconde o conteúdo extra */
-    max-height: 100px; /* Altura inicial */
-  }
-  
-  /* Estilo dos SVGs dentro do PageInfo */
-  .page-info img {
-    max-width: 500px; /* Ajuste conforme necessário */
-    height: auto; 
-    margin: 0 10px; /* Espaçamento horizontal entre os SVGs */
-    cursor: pointer; /* Indica que é clicável */
-  }
-  
-  /* Estilo quando expandido */
-  .page-info.expanded {
-    max-height: 500px; /* Altura expandida */
-  }
-  
+  background-image: url('../../../public/img/bg-tela-2.png');
+  padding: 0 30px;
+  overflow: scroll;
+}
+
+.item {
+  transition: transform 0.2s ease;
+}
+
+.item.expanded {
+  transform: scale(1.1); /* Ajuste o valor conforme necessário */
+}
+

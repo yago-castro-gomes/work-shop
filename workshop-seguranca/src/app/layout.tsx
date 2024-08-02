@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from 'next/font/local' ;
+import { Suspense } from "react";
+import RouteLoader from "./loading";
 
 const GoodTiming = localFont({
   src: '../../public/fonts/GoodTiming-Bold.otf',
@@ -8,7 +10,7 @@ const GoodTiming = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "WorkShop",
+  title: "Workshop Segurança",
   description: "Convite para evento",
 };
 
@@ -19,7 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={GoodTiming.className}>{children}</body>
+      <Suspense fallback={<RouteLoader />}>
+        <body className={GoodTiming.className}>{children}</body>
+      </Suspense>
     </html>
   );
 }
